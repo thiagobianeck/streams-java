@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JQLSearcherProjectManager">
+    <selected>-1</selected>
+    <searchers />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WlSvR4hT6IzMTLawfIsGeBOFhE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -7,6 +42,71 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/testes" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="Talios.JiraConfigurationComponent" enableIssueTracking="false" autoRefresh="false" useExternalBrowser="false" refreshTimeout="0" annotateissues="false">
+    <servers />
+    <columns />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="" />
+      <created>1579722918708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579722918708</updated>
+      <workItem from="1579722924784" duration="269000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1558" height="214" key="GridCell.Tab.0.bottom" timestamp="1579723020327">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="214" key="GridCell.Tab.0.bottom/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723020327" />
+    <state width="1558" height="214" key="GridCell.Tab.0.center" timestamp="1579723020327">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="214" key="GridCell.Tab.0.center/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723020327" />
+    <state width="1558" height="214" key="GridCell.Tab.0.left" timestamp="1579723020327">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="214" key="GridCell.Tab.0.left/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723020327" />
+    <state width="1558" height="214" key="GridCell.Tab.0.right" timestamp="1579723020327">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="214" key="GridCell.Tab.0.right/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723020327" />
+    <state x="1649" y="16" width="1024" height="844" key="SettingsEditor" timestamp="1579723012495">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1649" y="16" width="1024" height="844" key="SettingsEditor/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723012495" />
+    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1579723063740">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723063740" />
   </component>
 </project>
