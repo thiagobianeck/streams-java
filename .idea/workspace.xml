@@ -2,7 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/biconsumer/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/binaryoperator/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/collectors/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/function/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/And.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/IsEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Negate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Not.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Or.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/AllMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/AnyMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Concat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Distinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/DropWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Empty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/FindAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/FindFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/FlatMapToDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/FlatMapToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/FlatMapToLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/ForEachOrdered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Generate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Iterate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/MapToDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/MapToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/MapToLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/NoneMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Of.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/OfNullable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Peek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Skip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Sorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/TakeWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/ToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/supplier/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/unaryoperator/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/bianeck/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bianeck/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +60,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,10 +101,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/br/com/bianeck" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bianeck.stream" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/br/com/bianeck" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/unaryoperator" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/supplier" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/function" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/collectors" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -76,14 +144,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579722918708</updated>
-      <workItem from="1579722924784" duration="269000" />
+      <workItem from="1579722924784" duration="2696000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajustes no pom.xml para o Java 13">
+      <created>1579723213893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579723213893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajustes no pom.xml para o Java 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no pom.xml para o Java 13" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579725550985">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579725550985" />
+    <state x="1732" y="35" width="857" height="805" key="CommitChangelistDialog2" timestamp="1579723213771">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1732" y="35" width="857" height="805" key="CommitChangelistDialog2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723213771" />
     <state width="1558" height="214" key="GridCell.Tab.0.bottom" timestamp="1579723020327">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
@@ -104,9 +192,9 @@
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state x="1649" y="16" width="1024" height="844" key="SettingsEditor/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723012495" />
-    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1579723063740">
+    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1579723275434">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>
-    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723063740" />
+    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579723275434" />
   </component>
 </project>
