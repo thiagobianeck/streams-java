@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/example/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/example/FuncionarioPredicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/example/FuncionarioPredicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/anymatch/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/collect/Exemplo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/AnyMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/commons/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/Sexo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/enums/Sexo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/bianeck/optional" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/anymatch" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,14 +82,15 @@
       <recent name="br.com.bianeck.stream.allmatch" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bianeck.stream.builder" />
       <recent name="br.com.bianeck.stream" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bianeck\Documents\oo\streams-java\src\main\java\br\com\bianeck\stream\anymatch" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/optional" />
       <recent name="$PROJECT_DIR$/src/test/java/br/com/bianeck" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/unaryoperator" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/supplier" />
-      <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/function" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,13 +105,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FuncionarioPredicatesTest">
-    <configuration name="FuncionarioPredicatesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.example.FuncionarioPredicatesTest" />
+  <component name="RunManager" selected="Application.Exemplo1 (1)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.anymatch.App" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.predicate.example.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.anymatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateAnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateAnd" />
+    <configuration name="Exemplo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.collect.Exemplo1" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.predicate.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.collect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateInCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateInCollection" />
+    <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.builder.Exemplo1" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.predicate.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateNegate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateNegate" />
+    <configuration name="Exemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.builder.Exemplo2" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.predicate.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateOr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateOr" />
+    <configuration name="Exemplo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.builder.Exemplo3" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.predicate.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FuncionarioPredicatesTest" />
-        <item itemvalue="Application.PredicateInCollection" />
-        <item itemvalue="Application.PredicateNegate" />
-        <item itemvalue="Application.PredicateAnd" />
-        <item itemvalue="Application.PredicateOr" />
+        <item itemvalue="Application.Exemplo1 (1)" />
+        <item itemvalue="Application.Exemplo3" />
+        <item itemvalue="Application.Exemplo2" />
+        <item itemvalue="Application.Exemplo1" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579722918708</updated>
       <workItem from="1579722924784" duration="2953000" />
-      <workItem from="1579728768193" duration="9526000" />
+      <workItem from="1579728768193" duration="15400000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes no pom.xml para o Java 13">
       <created>1579723213893</created>
@@ -218,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579736114966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mais Predicates">
+      <created>1579740727060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579740727060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +257,8 @@
     <MESSAGE value="Adição de arquivos para estudos" />
     <MESSAGE value="allMatch" />
     <MESSAGE value="Estudando Predicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudando Predicates" />
+    <MESSAGE value="Mais Predicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mais Predicates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser" />

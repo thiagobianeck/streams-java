@@ -1,5 +1,9 @@
 package br.com.bianeck.stream.allmatch;
 
+import br.com.bianeck.stream.commons.Estudante;
+import br.com.bianeck.stream.enums.Sexo;
+
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -7,7 +11,16 @@ public class App {
 
     public static void main(String[] args) {
 
-        List<Estudante> estudantes = Estudante.getEstudantes();
+        List<Estudante> estudantes = Arrays.asList(
+                new Estudante(1L, 25, "José da Silva", Sexo.MASCULINO),
+                new Estudante(3L, 30, "Mariana de Souza", Sexo.FEMININO),
+                new Estudante(13L, 42, "Eustáquio Gerônimo", Sexo.MASCULINO),
+                new Estudante(22L, 47, "Eustanislau Ferreira", Sexo.MASCULINO),
+                new Estudante(7L, 27, "Tarso de Pádua", Sexo.MASCULINO),
+                new Estudante(4L, 37, "Lucas", Sexo.FEMININO),
+                new Estudante(4L, 15, "Zé", Sexo.FEMININO)
+        );
+
 
         Predicate<Estudante> todosComecamComE =
                 estudante -> estudante.getNome().toLowerCase().startsWith("e");

@@ -1,6 +1,7 @@
-package br.com.bianeck.stream.allmatch;
+package br.com.bianeck.stream.commons;
 
-import java.util.ArrayList;
+import br.com.bianeck.stream.enums.Sexo;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -48,18 +49,6 @@ public class Estudante {
 
     public void setSexo(Sexo sexo) {
         this.sexo = sexo;
-    }
-
-    public static List<Estudante> getEstudantes() {
-        return Arrays.asList(
-            new Estudante(1L, 25, "José da Silva", Sexo.MASCULINO),
-            new Estudante(3L, 30, "Mariana de Souza", Sexo.FEMININO),
-            new Estudante(13L, 42, "Eustáquio Gerônimo", Sexo.MASCULINO),
-            new Estudante(22L, 47, "Eustanislau Ferreira", Sexo.MASCULINO),
-            new Estudante(7L, 27, "Tarso de Pádua", Sexo.MASCULINO),
-            new Estudante(4L, 37, "Lucas", Sexo.FEMININO)
-        );
-
     }
 
     @Override
