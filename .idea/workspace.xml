@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/anymatch/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/collect/Exemplo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/commons/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/concat/MergeCustomObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/concat/MergeMultipleStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/concat/MergeTwoStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/concat/MergeUniqueElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/streams-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/streams-java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/AnyMatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/commons/Estudante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/Sexo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/enums/Sexo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Concat.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,13 +75,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.com.bianeck.stream.allmatch" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="br.com.bianeck.stream.builder" />
-      <recent name="br.com.bianeck.stream" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bianeck\Documents\oo\streams-java\src\main\java\br\com\bianeck\stream\anymatch" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/optional" />
@@ -92,33 +82,16 @@
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/unaryoperator" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/bianeck/supplier" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bianeck.stream.commons" />
+      <recent name="br.com.bianeck.stream.builder" />
+      <recent name="br.com.bianeck.stream" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.bianeck.stream.allmatch" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Exemplo1 (1)">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.anymatch.App" />
-      <module name="streams-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.bianeck.stream.anymatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeCustomObjects">
     <configuration name="Exemplo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.collect.Exemplo1" />
       <module name="streams-java" />
@@ -132,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.builder.Exemplo1" />
+    <configuration name="MergeCustomObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.concat.MergeCustomObjects" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.stream.builder.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.concat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exemplo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.builder.Exemplo2" />
+    <configuration name="MergeMultipleStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.concat.MergeMultipleStreams" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.stream.builder.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.concat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exemplo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.builder.Exemplo3" />
+    <configuration name="MergeTwoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.concat.MergeTwoStreams" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bianeck.stream.builder.*" />
+          <option name="PATTERN" value="br.com.bianeck.stream.concat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeUniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.stream.concat.MergeUniqueElements" />
+      <module name="streams-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bianeck.stream.concat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,20 +159,47 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeCustomObjects" />
+        <item itemvalue="Application.MergeUniqueElements" />
+        <item itemvalue="Application.MergeMultipleStreams" />
+        <item itemvalue="Application.MergeTwoStreams" />
         <item itemvalue="Application.Exemplo1 (1)" />
-        <item itemvalue="Application.Exemplo3" />
-        <item itemvalue="Application.Exemplo2" />
-        <item itemvalue="Application.Exemplo1" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="Talios.JiraConfigurationComponent" enableIssueTracking="false" autoRefresh="false" useExternalBrowser="false" refreshTimeout="0" annotateissues="false">
     <servers />
-    <columns />
+    <columns>
+      <column id="created" position="0" width="-1" />
+      <column id="key" position="1" width="-1" />
+      <column id="component" position="2" width="-1" />
+      <column id="title" position="3" width="-1" />
+      <column id="type" position="4" width="-1" />
+      <column id="priority" position="5" width="-1" />
+      <column id="status" position="6" width="-1" />
+      <column id="resolution" position="7" width="-1" />
+      <column id="assignee" position="8" width="-1" />
+      <column id="reporter" position="9" width="-1" />
+      <column id="updated" position="10" width="-1" />
+      <column id="dueDate" position="11" width="-1" />
+      <column id="version" position="12" width="-1" />
+      <column id="fixVersion" position="13" width="-1" />
+    </columns>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -197,6 +210,7 @@
       <updated>1579722918708</updated>
       <workItem from="1579722924784" duration="2953000" />
       <workItem from="1579728768193" duration="15400000" />
+      <workItem from="1579780573744" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes no pom.xml para o Java 13">
       <created>1579723213893</created>
@@ -244,7 +258,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -261,21 +277,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mais Predicates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser" />
-    <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state x="1732" y="35" width="857" height="805" key="CommitChangelistDialog2" />
-    <state x="1732" y="35" width="857" height="805" key="CommitChangelistDialog2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state width="1558" height="214" key="GridCell.Tab.0.bottom" />
-    <state width="1558" height="214" key="GridCell.Tab.0.bottom/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state width="1558" height="214" key="GridCell.Tab.0.center" />
-    <state width="1558" height="214" key="GridCell.Tab.0.center/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state width="1558" height="214" key="GridCell.Tab.0.left" />
-    <state width="1558" height="214" key="GridCell.Tab.0.left/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state width="1558" height="214" key="GridCell.Tab.0.right" />
-    <state width="1558" height="214" key="GridCell.Tab.0.right/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state x="1649" y="16" width="1024" height="844" key="SettingsEditor" />
-    <state x="1649" y="16" width="1024" height="844" key="SettingsEditor/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
-    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2" />
-    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" />
+    <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579782783154" />
+    <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579782783154" />
+    <state x="1732" y="35" width="857" height="805" key="CommitChangelistDialog2" timestamp="1579782783154" />
+    <state x="1732" y="35" width="857" height="805" key="CommitChangelistDialog2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579782783154" />
+    <state width="1558" height="213" key="GridCell.Tab.0.bottom" timestamp="1579784787390">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="213" key="GridCell.Tab.0.bottom/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579784787390" />
+    <state width="1558" height="213" key="GridCell.Tab.0.center" timestamp="1579784787390">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="213" key="GridCell.Tab.0.center/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579784787390" />
+    <state width="1558" height="213" key="GridCell.Tab.0.left" timestamp="1579784787390">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="213" key="GridCell.Tab.0.left/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579784787390" />
+    <state width="1558" height="213" key="GridCell.Tab.0.right" timestamp="1579784787390">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="213" key="GridCell.Tab.0.right/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579784787390" />
+    <state x="1649" y="16" width="1024" height="844" key="SettingsEditor" timestamp="1579782783154" />
+    <state x="1649" y="16" width="1024" height="844" key="SettingsEditor/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579782783154" />
+    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1579782783154" />
+    <state x="1761" y="174" width="800" height="527" key="Vcs.Push.Dialog.v2/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579782783154" />
+    <state x="1829" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1579783651659">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1829" y="188" width="672" height="678" key="search.everywhere.popup/1366.0.1600.900/0.132.1366.768@1366.0.1600.900" timestamp="1579783651659" />
   </component>
 </project>
