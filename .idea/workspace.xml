@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/anymatch/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/builder/Exemplo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/collect/Exemplo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/AnyMatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/commons/Estudante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/allmatch/Sexo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/stream/enums/Sexo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +186,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579722918708</updated>
       <workItem from="1579722924784" duration="2953000" />
-      <workItem from="1579728768193" duration="15400000" />
+      <workItem from="1579728768193" duration="15536000" />
+      <workItem from="1579819548732" duration="487000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes no pom.xml para o Java 13">
       <created>1579723213893</created>
@@ -233,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579740727060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Collectors">
+      <created>1579746531795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579746531795</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Collectors">
+      <created>1579746550765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579746550765</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +249,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -258,7 +265,8 @@
     <MESSAGE value="allMatch" />
     <MESSAGE value="Estudando Predicates" />
     <MESSAGE value="Mais Predicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mais Predicates" />
+    <MESSAGE value="Collectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collectors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser" />
