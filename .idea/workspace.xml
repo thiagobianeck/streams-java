@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b12786-a74e-4939-bbde-618adcd8c33d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PredicateChaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PredicateInCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PredicateInFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/SimplePredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/example/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/example/FuncionarioPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/example/FuncionarioPredicatesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/And.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PredicateOr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/IsEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PermissaoEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Negate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PredicateAnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Not.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/PredicateNegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Or.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bianeck/predicate/Test.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,7 +97,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PredicateInCollection">
+  <component name="RunManager" selected="Application.FuncionarioPredicatesTest">
+    <configuration name="FuncionarioPredicatesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.example.FuncionarioPredicatesTest" />
+      <module name="streams-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bianeck.predicate.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PredicateAnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateAnd" />
       <module name="streams-java" />
@@ -120,19 +126,6 @@
     </configuration>
     <configuration name="PredicateInCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateInCollection" />
-      <module name="streams-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.bianeck.predicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicateInFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bianeck.predicate.PredicateInFunction" />
       <module name="streams-java" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncionarioPredicatesTest" />
         <item itemvalue="Application.PredicateInCollection" />
         <item itemvalue="Application.PredicateNegate" />
         <item itemvalue="Application.PredicateAnd" />
         <item itemvalue="Application.PredicateOr" />
-        <item itemvalue="Application.PredicateInFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579722918708</updated>
       <workItem from="1579722924784" duration="2953000" />
-      <workItem from="1579728768193" duration="6509000" />
+      <workItem from="1579728768193" duration="9526000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes no pom.xml para o Java 13">
       <created>1579723213893</created>
@@ -218,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579732967788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Estudando Predicates">
+      <created>1579736114966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579736114966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +241,8 @@
     <MESSAGE value="Ajustes no pom.xml para o Java 13" />
     <MESSAGE value="Adição de arquivos para estudos" />
     <MESSAGE value="allMatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="allMatch" />
+    <MESSAGE value="Estudando Predicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudando Predicates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1844" y="244" width="650" height="387" key="#com.intellij.fileTypes.FileTypeChooser" />
