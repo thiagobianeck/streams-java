@@ -1,0 +1,4 @@
+Este é um arquivo
+de teste de leitura
+gravado no format txt
+de thiago moreira bianeck
